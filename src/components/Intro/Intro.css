@@ -1,32 +1,32 @@
-.hero{
+.intro{
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 35px;
 }
-.hero img{
+.intro img{
     margin-top: 150px;
-    border: 2px solid #B923E1;
+    border: 3px solid white;
     border-radius: 50%;
 }
-.hero h1{
+.intro h1{
     text-align: center;
     width: 70%;
     font-size: 90px;
     font-weight: 500;
 }
-.hero h1 span{
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+.intro h1 span{
+    background: linear-gradient(500deg, #d38714, #3c09b3);
     background-clip: text;
     color: transparent;
 }
-.hero p{
+.intro p{
     width: 50%;
     text-align: center;
     font-size: 24px;
     line-height: 40px;
 }
-.hero-action{
+.intro-action{
     display: flex;
     align-items: center;
     gap: 25px;
@@ -34,22 +34,22 @@
     font-weight: 500;
     margin-bottom: 50px;
 }
-.hero-connect{
+.intro-connect{
     padding: 15px 30px;
     border-radius: 50px;
     border: 2px solid white;
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    background: linear-gradient(500deg, #d38714, #3c09b3);
     cursor: pointer
 }
-.hero-resume{
+.intro-resume{
     padding: 15px 50px;
     border-radius: 50px;
     border: 2px solid white;
     cursor: pointer;
 }
-.hero-connect:hover{
-    border-color: #b415ff;
+.intro-connect:hover{
+    border-color: #3c09b3;
 }
-.hero-resume:hover{
-    border-color: #b415ff;
+.intro-resume:hover{
+    border-color: #3c09b3;
 }

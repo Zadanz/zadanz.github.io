@@ -1,10 +1,10 @@
 import React from "react";
-import "./Hero.css";
+import "./Intro.css";
 import profile_img from "../../assets/beaver_profile.png";
 
-const Hero = () => {
+const Intro = () => {
     return (
-        <div className="hero">
+        <div className="intro">
             <img src={profile_img} alt="" />
             <h1>
                 <span>I'm Aleks,</span> frontend developer by day, toilet paper
@@ -15,12 +15,12 @@ const Hero = () => {
                 paper. After 10 long years of fighting this curse, I have now
                 shed my old self and accepted the calling of the toilet paper.
             </p>
-            <div className="hero-action">
-                <div className="hero-connect">Connect with me</div>
-                <div className="hero-resume">My resume</div>
+            <div className="intro-action">
+                <div className="intro-connect">Connect with me</div>
+                <div className="intro-resume">My resume</div>
             </div>
         </div>
     );
 };
 
-export default Hero;
+export default Intro;

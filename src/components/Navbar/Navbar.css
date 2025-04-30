@@ -12,9 +12,9 @@
     font-size: 20px;
 }
 .nav-connect{
-    padding: 15px 30px;
-    border-radius: 50px;
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%); 
+    padding: 10px 15px;
+    border-radius: 40px;
+    background: linear-gradient(500deg, #d38714, #3c09b3); 
     font-size: 22px;
     cursor: pointer;
     transition: 0.1s;

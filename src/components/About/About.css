@@ -58,7 +58,7 @@
     width: 50%;
     height: 8px;
     border-radius: 50px;
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    background: linear-gradient(500deg, #d38714, #3c09b3);
 }
 .about-achievements{
     display: flex;
@@ -76,7 +76,7 @@
 .about-achievement h1{
     font-size: 60px;
     font-weight: 700;
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    background: linear-gradient(500deg, #d38714, #3c09b3);
     background-clip: text;
     color: transparent;
 }
@@ -92,8 +92,8 @@
     transform: scale(1.12);
     transition: 0.5s;
 }
-.image{
-    border: 2px solid #B923E1;
+.about-left img{
+    border: 3px solid white;
     border-radius: 10px;
     height: 400px;
 }
