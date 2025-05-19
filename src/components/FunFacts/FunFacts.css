@@ -21,7 +21,7 @@
     z-index: -1;
 }
 .fact-format{
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
@@ -38,8 +38,11 @@
     margin-bottom: 80px;
 }
 .fact-format h3{
+    display: inline-block;
     font-size: 28px;
     font-weight: 600;
+    top: 0;
+    padding-bottom: 20px;
 }
 .fact-format h2{
     font-size: 38px;
