@@ -1,5 +1,8 @@
 # Portfolio Website
 
-Personal portfolio website
+Personal portfolio website built to practice React development.
+Currently WIP and filled with beavers.
 
-Based on guide by GreatStack: https://www.youtube.com/watch?v=hkHHwA-vEyQ
+### References: 
+Guide by GreatStack: [Video](https://www.youtube.com/watch?v=hkHHwA-vEyQ)
+Navbar design: [Video](https://www.youtube.com/watch?v=wh1FKjZt_H8), [StackOverflow](https://stackoverflow.com/questions/59448836/how-to-underline-navbar-item-when-it-is-clicked) 

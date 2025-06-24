@@ -6,7 +6,7 @@ import arrow_icon from "../../assets/arrow_icon.svg";
 
 const Gallery = () => {
     return (
-        <div className="gallery">
+        <div id="gallery" className="gallery">
             <div className="gallery-title">
                 <h1>Work Highlights</h1>
                 <img src={theme_pattern} alt="" />

@@ -6,7 +6,7 @@ import data from "../../assets/facts_data";
 
 const FunFacts = () => {
     return (
-        <div className="funfacts">
+        <div id="funfacts" className="funfacts">
             <div className="funfacts-title">
                 <h1>Fun Facts</h1>
                 <img src={theme_pattern} alt="" />

@@ -22,6 +22,35 @@
 .nav-connect:hover{
     transform: scale(1.05);
 }
-.navbar img{
-    height: 50px;
+
+.nav-menu li{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-menu li:hover{
+    color: rgb(152, 134, 182);
+}
+
+.nav-menu li::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: rgb(83, 83, 114);
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    bottom: -4px;
+    transition: all 0.2s;
+    pointer-events: none;
+}
+
+.nav-menu li:hover::after{
+    opacity: 1;
+}
+
+.anchor-link{
+    text-decoration: none;
+    color: white;
 }
