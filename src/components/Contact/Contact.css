@@ -14,12 +14,6 @@
     font-size: 80px;
     font-weight: 600;
 }
-.contact-title img{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-}
 .contact-section{
     display: flex;
     gap: 150px;
@@ -94,11 +88,20 @@
     background: linear-gradient(500deg, #d38714, #3c09b3);
     font-size: 22px;
     padding: 15px 35px;
-    margin-bottom: 50px;
     cursor: pointer;
     transition: 0.3s;
 }
 .contact-submit:hover{
     transform: scale(1.1);
     transition: 0.3s;
+}
+
+.submit-area{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.contact-right textarea{
+    resize: vertical;
 }
