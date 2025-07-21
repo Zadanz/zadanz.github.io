@@ -4,7 +4,7 @@ Personal portfolio website built to practice React development.
 Currently WIP and filled with beavers.
 
 ### Implemented tools/components:
-[Smooth Scroll](https://www.npmjs.com/package/react-anchor-link-smooth-scroll), [Web3Forms](https://web3forms.com/)
+[Smooth Scroll](https://www.npmjs.com/package/react-anchor-link-smooth-scroll), [Web3Forms](https://web3forms.com/), [gh-pages](https://www.npmjs.com/package/gh-pages)
 
 ### References: 
 Guide by GreatStack: [Video](https://www.youtube.com/watch?v=hkHHwA-vEyQ)  
